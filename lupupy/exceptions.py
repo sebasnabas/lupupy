@@ -12,9 +12,3 @@ class LupusecException(Exception):
         self.errcode = error[0]
         self.message = error[1]
         self.details = details
-
-
-# class LupusecAuthenticationException(LupusecException):
-#     """Class to throw authentication exception."""
-
-#     pass

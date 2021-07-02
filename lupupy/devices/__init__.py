@@ -1,10 +1,6 @@
 """
 Init file for devices directory.
 """
-
-import json
-import logging
-
 from abc import ABC, abstractmethod
 
 
